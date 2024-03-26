@@ -4,8 +4,6 @@ kind: Application
 metadata:
   name: argocd
 spec:
-  syncPolicy:
-    preserveResourcesOnDeletion: true
   project: infra
   sources:
     - chart: argo-cd
